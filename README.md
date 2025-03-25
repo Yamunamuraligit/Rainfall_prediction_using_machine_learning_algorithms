@@ -15,3 +15,12 @@ The following Machine Learning algorithms are utilized for prediction:
 Comparision of models:
 
 The Accuracy of Logistic Regression, Support Vector Machine(SVM),XGBoost Classifier reveals that Logistic Regression outperforming SVM and XGBoost in accuracy, achieving the highest accuracy rate among the three models
+
+Structure of project :
+
+project
+|--------> pages
+|            |--------> 1_Data_visualisation.py
+|            |--------> 2_check_prediction.py
+|--------> Homepage.py
+|--------> Rainfall.csv
