@@ -18,8 +18,28 @@ The Accuracy of Logistic Regression, Support Vector Machine(SVM),XGBoost Classif
 
 Structure of project :
 
-project
-|--------> pages
+rainfall-prediction/
+│── data/                     # Directory for dataset files
+│   ├── rainfall_data.csv      # Raw dataset file
+│   ├── processed_data.csv     # Preprocessed dataset
+│── models/                    # Trained models storage
+│   ├── logistic_regression.pkl
+│   ├── svm_model.pkl
+│   ├── xgboost_model.pkl
+│── notebooks/                 # Jupyter notebooks for EDA and model training
+│   ├── exploratory_analysis.ipynb
+│   ├── model_training.ipynb
+│── src/                       # Source code
+│   ├── data_preprocessing.py  # Data cleaning and feature engineering
+│   ├── train_model.py         # Model training script
+│   ├── predict.py             # Prediction script
+│── app/                       # Streamlit application
+│   ├── app.py                 # Main Streamlit app
+│── requirements.txt           # Python dependencies
+│── README.md                  # Project documentation
+│── LICENSE                    # License file
+│── .gitignore                 # Files to ignore in Git
+
 
 
 
