@@ -19,6 +19,7 @@ The Accuracy of Logistic Regression, Support Vector Machine(SVM),XGBoost Classif
 Structure of project :
 
 project
+
 |--------> pages
 |            |--------> 1_Data_visualisation.py
 |            |--------> 2_check_prediction.py
