@@ -40,4 +40,7 @@ Run the following command to install Streamlit:
 ```bash
 pip install streamlit
 
-
+### **2. Run the Application**
+Execute the following command to launch the application:
+```bash
+ streamlit run Homepage.py
