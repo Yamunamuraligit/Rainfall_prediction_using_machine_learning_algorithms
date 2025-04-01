@@ -12,6 +12,21 @@ The following Machine Learning algorithms are utilized for prediction:
 - Support Vector Machine (SVM)
 - XGBoost Classifier
 
+## Inputs/Features
+The following features are used for predicting rainfall:
+
+- **Pressure**: Atmospheric pressure at the given time.
+- **Temperature**: Temperature at the given time.
+- **MinTemp**: Minimum temperature during the given period.
+- **MaxTemp**: Maximum temperature during the given period.
+- **Dewpoint**: Dew point temperature.
+- **Humidity**: Humidity level in the air.
+- **Cloud**: Cloud coverage during the given period.
+- **Sunshine**: Sunshine duration or intensity.
+- **Windspeed**: Wind speed at the given time.
+- **Wind Direction**: The direction of the wind during the period.
+
+
 ## Comparision of models:
 
 The Accuracy of Logistic Regression, Support Vector Machine(SVM),XGBoost Classifier reveals that Logistic Regression outperforming SVM and XGBoost in accuracy, achieving the highest accuracy rate among the three models
