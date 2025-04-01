@@ -24,3 +24,11 @@ The Accuracy of Logistic Regression, Support Vector Machine(SVM),XGBoost Classif
     - `2_check_prediction.py`
   - `Homepage.py`
   - `Rainfall.csv`
+
+## Technologies used
+
+- Python
+- Pandas, NumPy (for data preprocessing)
+- Scikit-learn, XGBoost (for ML models)
+- Matplotlib, Seaborn (for visualization)
+- Streamlit (for web-based UI)
