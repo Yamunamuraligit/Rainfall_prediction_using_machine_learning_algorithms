@@ -40,8 +40,16 @@ Run the following command to install Streamlit:
 ```bash
 pip install streamlit
 ```
-### **2.Run the application**
+### **2. Run the application**
 Execute the following command to launch the application:
 ```bash
 streamlit run Homepage.py
 ```
+### **3. Homepage**
+This command will open the Rainfall Prediction Homepage, where you can check the inputs and view the accuracy of each model.
+
+### **4. Data Visualisation**
+On the left-hand side, you will find the Data Visualization section, which shows the training and testing accuracy of all three models.
+
+### **5. Check Prediction**
+In the Check Prediction section, users can enter their own input values and select a model to predict whether it will Rain or Not Rain, along with the corresponding accuracy.
