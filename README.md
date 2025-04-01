@@ -53,3 +53,14 @@ On the left-hand side, you will find the Data Visualization section, which shows
 
 ### **5. Check Prediction**
 In the Check Prediction section, users can enter their own input values and select a model to predict whether it will Rain or Not Rain, along with the corresponding accuracy.
+
+## Result
+
+### **Model Accuracy**  
+The models were evaluated based on **accuracy**. Below is a comparison of their performance:  
+
+| Model                  | Accuracy |
+|------------------------|----------|
+| **Logistic Regression** | 85%      |
+| **SVM**                 | 88%      |
+| **XGBoost**             | 91%      |
